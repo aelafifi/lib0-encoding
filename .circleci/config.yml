@@ -50,15 +50,10 @@ jobs:
 workflows:
   build-deploy:
     jobs:
-      - build:
-          filters:
-            tags:
-              only: /^v.*/
+      - build
       - deploy:
           requires:
             - build
           filters:
-            tags:
-              only: /^v.*/
             branches:
               only: master
