@@ -50,7 +50,13 @@ jobs:
 workflows:
   build-deploy:
     jobs:
-      - build
+      - build:
+          filters:
+            tags:
+              only: /.*/
+            branches:
+              only: /.*/
+
       - deploy:
           requires:
             - build
