@@ -1,11 +1,12 @@
 {
   "name": "lib0-encoding",
-  "version": "0.2.45",
+  "version": "0.2.46",
   "description": "Optimized encoder/decoder based on lib0 NPM package",
   "main": "./dist/index.js",
   "scripts": {
+    "cleanup": "rm -r -f dist",
     "compile": "tsc",
-    "prepack": "npm run compile"
+    "prepack": "npm run cleanup && npm run compile"
   },
   "repository": {
     "type": "git",
