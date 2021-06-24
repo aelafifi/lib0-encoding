@@ -1,6 +1,6 @@
 {
   "name": "lib0-encoding",
-  "version": "0.2.42",
+  "version": "0.2.43",
   "description": "Optimized encoder/decoder based on lib0 NPM package",
   "main": "./dist/index.js",
   "scripts": {
@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/aelafifi/json-binary.git"
+    "url": "git+https://github.com/aelafifi/lib0-encoding.git"
   },
   "keywords": [],
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/aelafifi/json-binary/issues"
+    "url": "https://github.com/aelafifi/lib0-encoding/issues"
   },
-  "homepage": "https://github.com/aelafifi/json-binary#readme",
+  "homepage": "https://github.com/aelafifi/lib0-encoding#readme",
   "dependencies": {
     "debug": "^4.3.1",
     "lib0": "^0.2.42"
