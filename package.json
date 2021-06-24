@@ -1,6 +1,6 @@
 {
   "name": "lib0-encoding",
-  "version": "0.2.43",
+  "version": "0.2.44",
   "description": "Optimized encoder/decoder based on lib0 NPM package",
   "main": "./dist/index.js",
   "scripts": {
